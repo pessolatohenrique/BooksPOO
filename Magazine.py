@@ -1,8 +1,8 @@
 from Publication import Publication
 
 class Magazine(Publication):
-    def __init__(self, name, publicated_at, genders, edition):
-        super().__init__(name, publicated_at, genders)
+    def __init__(self, name, publicated_at, genders, pages,edition):
+        super().__init__(name, publicated_at, genders, pages)
         self._edition = edition
 
     def show_info(self):
